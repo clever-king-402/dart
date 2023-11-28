@@ -21,6 +21,7 @@ main() {
   print(isPass);
   print(isPass);
 
+
 //for string
   /*
       ''
@@ -33,11 +34,11 @@ main() {
   String type3 = '''type3
   sdflaksfaf
   asdfsf''';
-
   String name = "ranjit";
   String address = "dryport";
   print("my name is " + name + ". My address is " + address);
   print("my name is \"$name\". My Address is $address. my age is ${5} ");
+  print(name[3]);
   /*
   Camel Case => myFirstNameIsRam lower MyFirstNameIsRam upper => used for variable name and object name
   Pascel Case => MyNameIsRam => used for class names
