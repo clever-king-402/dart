@@ -9,4 +9,9 @@
 // paramemter limit
 /* good function name
 // function should have 2 work max
-dont write comment everywhere */
+dont write comment everywhere */*/*/
+
+
+main(){
+
+}
