@@ -1,3 +1,5 @@
+import 'dart:io';
+
 main() {
   // String firstName = "ranjit";
   // bool isHappy = true;
@@ -14,14 +16,19 @@ main() {
   // print(friendName);
   // friendName.removeRange(1, 3);
   // print(friendName);
-  List dummy1 = [1, 2, 4, 45, 3, 6, 4];
-  List dummy2 = [1, 2, 3, 4, 5, 2];
-  Set dummy = [...dummy1, ...dummy2].toSet();
-  dummy.add(1);
-  print(dummy);
+  // List dummy1 = [1, 2, 4, 45, 3, 6, 4];
+  // List dummy2 = [1, 2, 3, 4, 5, 2];
+  // Set dummy = [...dummy1, ...dummy2].toSet();
+  // dummy.add(1);
+  // print(dummy);
 
-  Map disnery = {"hello": "greeting", "welcome": "leting someone to come"};
-  print(disnery["welcome"]);
+  // Map disnery = {"hello": "greeting", "welcome": "leting someone to come"};
+  // print(disnery["welcome"]);
 
-  
+  // disnery.addEntries([MapEntry("max", "maximum value")]);
+  // print(disnery["max"]);
+  String? player;
+  player = stdin.readLineSync();
+  if (player == "") player = "Guest";
+  print("Welcome ${player}, your are our good teacher.");
 }
