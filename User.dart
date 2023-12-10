@@ -12,7 +12,11 @@ abstract class User {
       required this.dateOfBirth,
       required this.course});
 
-  void getInfo() {}
+  // void getInfo() {}
+  @override
+  void getInfo() {
+    print("hello my Name is $name");
+  }
   // : assert(salary > 2000,"must be greater than zero"),
   // : _salary = salary;
   // _abc=abc;//initialization list or expression
@@ -81,7 +85,7 @@ class Teacher extends User {
       {required super.name,
       required super.address,
       required super.dateOfBirth,
-      required int this.salary,
+      required this.salary,
       required super.course});
   @override
   void getInfo() {
