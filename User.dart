@@ -1,4 +1,5 @@
-abstract class User {
+// abstract
+ class User {
   String name;
   String address;
   DateTime dateOfBirth;
@@ -45,10 +46,10 @@ abstract class User {
   // }
   // }
 
-  // int get age {
-  //   final currentDate = DateTime.now();
-  //   return currentDate.year - dateOfBirth.year;
-  // }
+  int get age {
+    final currentDate = DateTime.now();
+    return currentDate.year - dateOfBirth.year;
+  }
 
   // double getSalary() {
   //   return _salary * 1.1;
